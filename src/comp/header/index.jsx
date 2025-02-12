@@ -5,7 +5,6 @@ import { FaShoppingCart } from "react-icons/fa";
 
 const Header = () => {
       return <>
-            {/* TOP HEADER HERE */}
             <div className="bg-gray-800 text-white p-1 justify-evenly flex gap-2 items-center">
                   <div className="text-xs sm:text-sm">Summer Sale for All Clothing items and Free Express Delivery - OFF 60%! <a href="/shop" className='text-blue-400 hover:text-blue-600 underline px-4'>
                         Shop Now
@@ -19,7 +18,6 @@ const Header = () => {
                         </select>
                   </div>
             </div>
-            {/* MAIN HEADER HERE */}
             <div className="bg-white shadow-md py-4 px-4">
                   <div className="container mx-auto flex justify-between items-center">
                         <div className="text-2xl font-bold text-gray-800">
@@ -43,8 +41,8 @@ const Header = () => {
                   </div>
             </div>
             <div className="bg-gray-100 py-4">
-                  <div className="container mx-auto flex justify-center">
-
+                  <div className="container mx-auto flex justify-end items-center gap-4">
+                        
                         <form className="w-full px-3 sm:px-0 max-w-3xl">
                               <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                               <div className="relative">
@@ -57,7 +55,15 @@ const Header = () => {
                                     <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                               </div>
                         </form>
+                        <div className="hidden sm:flex gap-4 text-sm text-gray-800 font-medium">
+                              <a href="/track-oder">Track Order</a>|
+                              <a href="/privacy-policy">Privacy Policy</a>|
+                              <a href="/refund-policy">Refund Policy</a>
+                        </div>
 
+                  </div>
+                  <div className=" px-44 absolut  bg-amber-50 h-px{50}">
+                        
                   </div>
             </div>
 
